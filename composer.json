@@ -1,6 +1,6 @@
 {
-    "name": "GuilhermeTome/jwt",
-    "description": "",
+    "name": "guilhermetome/jwt",
+    "description": "A simple jwt class",
     "authors": [
         {
             "name": "Guilherme Tomé dos Reis",
