@@ -1,13 +1,23 @@
 {
     "name": "GuilhermeTome/jwt",
     "description": "",
+    "authors": [
+        {
+            "name": "Guilherme Tomé dos Reis",
+            "homepage": "https://github.com/GuilhermeTome/",
+            "role": "Backend Developer"
+        }
+    ],
     "license":"MIT",
     "type":"library",
+    "require": {
+      "php": ">=7.2"
+    },
     "autoload": {
       "psr-4": {
-        "src\\": "src/"
+        "Jwt\\": "src/"
       }
     },
     "homepage":"https://github.com/GuilhermeTome/jwt"
-  }
+}
   

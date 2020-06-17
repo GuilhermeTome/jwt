@@ -1,4 +1,4 @@
-# Readme template
+# Jwt class
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/GuilhermeTome/readme-template) ![GitHub repository size](https://img.shields.io/github/repo-size/GuilhermeTome/readme-template?color=blue)
 
@@ -20,7 +20,7 @@ This project is just a simple template for readme files and have your github pro
 
 ### Prerequisites
 
-- PHP 7.x
+- PHP >= 7.2
 - Composer
 
 ### Installing
@@ -35,6 +35,45 @@ git clone https://github.com/GuilhermeTome/jwt
 ## How to use
 
 - Only clone project and use like a template to build very good README.md docs to your projects.
+
+### Declare the jwt key
+
+- In you application you need to create a const like this:
+
+```
+<?php
+
+// the key of the application
+define('JWT_SECRET', 'mysecret');
+```
+
+### Generate the jwt key
+
+- @param array
+- @return string
+```
+<?php
+
+use Jwt\Tool\Jwt;
+
+echo Jwt::encode([
+    'user' => 'Guilherme',
+    'email' => 'email@gmail.com',
+    'pass' => 'MyPassword'
+]);
+```
+
+### Decode the jwt key
+
+- @param string
+- @return array|false
+```
+<?php
+
+use Jwt\Tool\Jwt;
+
+echo Jwt::decode($key);
+```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please make sure to update tests as appropriate.
