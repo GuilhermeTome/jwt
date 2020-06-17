@@ -1,0 +1,13 @@
+{
+    "name": "GuilhermeTome/jwt",
+    "description": "",
+    "license":"MIT",
+    "type":"library",
+    "autoload": {
+      "psr-4": {
+        "src\\": "src/"
+      }
+    },
+    "homepage":"https://github.com/GuilhermeTome/jwt"
+  }
+  
