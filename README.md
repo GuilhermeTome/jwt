@@ -73,7 +73,7 @@ echo Jwt::encode([
 ```
 <?php
 
-use Jwt\Tool\Jwt;
+use GuilhermeTome\Jwt;
 
 echo Jwt::decode($key);
 ```
