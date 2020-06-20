@@ -2,6 +2,9 @@
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/GuilhermeTome/readme-template) ![GitHub repository size](https://img.shields.io/github/repo-size/GuilhermeTome/readme-template?color=blue)
 
+[![Build Status](https://scrutinizer-ci.com/g/GuilhermeTome/jwt/badges/build.png?b=master)](https://scrutinizer-ci.com/g/GuilhermeTome/jwt/build-status/master)
+[![Code Intelligence Status](https://scrutinizer-ci.com/g/GuilhermeTome/jwt/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
+
 This project is just a simple template for readme files and have your github project very well documented and explained.
 
 ## Summary
