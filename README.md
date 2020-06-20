@@ -1,5 +1,6 @@
 # Jwt class
 
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/GuilhermeTome/jwt/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/GuilhermeTome/jwt/?branch=master)
 ![GitHub last commit](https://img.shields.io/github/last-commit/GuilhermeTome/readme-template)
 ![GitHub repository size](https://img.shields.io/github/repo-size/GuilhermeTome/readme-template?color=blue)
 [![Build Status](https://scrutinizer-ci.com/g/GuilhermeTome/jwt/badges/build.png?b=master)](https://scrutinizer-ci.com/g/GuilhermeTome/jwt/build-status/master)
