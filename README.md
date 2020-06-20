@@ -10,7 +10,6 @@ This project is just a simple template for readme files and have your github pro
 - [Prerequisites](#prerequisites)
 - [Installing](#installing)
 - [How to use](#how-to-use)
-- [Extra content](#extra)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -30,6 +29,10 @@ You can clone the project with this command:
 - Clone repository:
 ```
 git clone https://github.com/GuilhermeTome/jwt
+```
+- Install in your project:
+```
+composer require guilhermetome/jwt
 ```
 
 ## How to use
@@ -54,7 +57,7 @@ define('JWT_SECRET', 'mysecret');
 ```
 <?php
 
-use Jwt\Tool\Jwt;
+use GuilhermeTome\Jwt;
 
 echo Jwt::encode([
     'user' => 'Guilherme',

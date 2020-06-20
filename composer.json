@@ -1,6 +1,12 @@
 {
     "name": "guilhermetome/jwt",
     "description": "A simple jwt class",
+    "keywords": [
+      "GuilhermeTome",
+      "Web Assets",
+      "JWT",
+      "Json"
+    ],
     "authors": [
         {
             "name": "Guilherme Tomé dos Reis",
@@ -15,7 +21,7 @@
     },
     "autoload": {
       "psr-4": {
-        "Jwt\\": "src/"
+        "GuilhermeTome\\": "src/"
       }
     },
     "homepage":"https://github.com/GuilhermeTome/jwt"
