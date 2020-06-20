@@ -48,6 +48,12 @@ composer require guilhermetome/jwt
 
 // the key of the application
 define('JWT_SECRET', 'mysecret');
+
+// the hash of the jwt
+define('JWT_HASH', 'sha256');
+
+// the alg to put in header
+define('JWT_ALG', 'HS256');
 ```
 
 ### Generate the jwt key
